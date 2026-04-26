@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Economics PhD Student</title>
+  <meta name="description" content="Personal academic website of an Economics PhD student at Toulouse School of Economics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Your Name</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#cv">CV</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <p class="eyebrow">Toulouse School of Economics</p>
+      <h1>Incoming PhD Student in Economics</h1>
+      <p class="lead">
+        I am interested in applied microeconomics, labor, and public policy.
+        This website collects my research, CV, and a few personal notes.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#research">View Research</a>
+        <a class="btn btn-ghost" href="cv.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <div class="card">
+        <p>
+          Hello! I am <strong>Your Name</strong>, an incoming Economics PhD student at
+          <strong>Toulouse School of Economics</strong>. I hold a background in economics and data analysis,
+          and I am excited to work on research questions with clear policy relevance.
+        </p>
+        <p>
+          You can edit this section with your biography, education, methods, and advisor interests.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="container section">
+      <h2>Research & Projects</h2>
+      <div class="grid">
+        <article class="card project">
+          <h3>Working Paper Title</h3>
+          <p class="meta">Work in progress</p>
+          <p>Short project description: question, data, and preliminary findings.</p>
+          <a href="#" aria-label="Project link">Project page</a>
+        </article>
+        <article class="card project">
+          <h3>RA / Thesis Project</h3>
+          <p class="meta">2025</p>
+          <p>Brief summary of your role, methods, and contribution.</p>
+          <a href="#">Slides or code</a>
+        </article>
+        <article class="card project">
+          <h3>Replication / Data Project</h3>
+          <p class="meta">2024</p>
+          <p>A concise description showing your technical and empirical skills.</p>
+          <a href="#">Repository</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="cv" class="container section">
+      <h2>Curriculum Vitae</h2>
+      <div class="card">
+        <p>For a complete CV, download the PDF below:</p>
+        <p><a class="btn btn-primary" href="cv.pdf" target="_blank" rel="noopener noreferrer">Open CV (PDF)</a></p>
+        <ul class="cv-highlights">
+          <li><strong>Education:</strong> Add your schools, majors, and dates.</li>
+          <li><strong>Research Interests:</strong> Add 3-5 keywords.</li>
+          <li><strong>Skills:</strong> Stata, R, Python, LaTeX, etc.</li>
+          <li><strong>Awards:</strong> Scholarships, distinctions, grants.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="interests" class="container section">
+      <h2>Personal Interests</h2>
+      <div class="card">
+        <p>
+          Beyond research, I enjoy long-distance running, reading economic history, and traveling.
+          Add a short and personal paragraph to make the site feel human and memorable.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:your.email@domain.com">your.email@domain.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a></p>
+        <p>Google Scholar / Website links: add as needed.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
